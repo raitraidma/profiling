@@ -31,9 +31,9 @@ class ProfilingSimulation extends Simulation {
 
   setUp(
     avatarScenario.inject(atOnceUsers(50)),
-    commentContainsTextCountScenario.inject(atOnceUsers(50)),
-    latestPosts.inject(atOnceUsers(50)),
-    latestComments.inject(atOnceUsers(50))
+//    commentContainsTextCountScenario.inject(atOnceUsers(50)),
+//    latestComments.inject(atOnceUsers(50)),
+//    latestPosts.inject(atOnceUsers(50))
   ).protocols(httpProtocol)
     .assertions(
       global.responseTime.max.lt(3000),

@@ -8,9 +8,9 @@ public class CpuUsageExample {
   private void runDemo() {
     long start = System.currentTimeMillis();
 
-    System.out.printf("Method 1 returned: %s", method1());
-    System.out.printf("Method 2 returned: %s", method2());
-    System.out.printf("Method 3 returned: %s", method3());
+    System.out.printf("Method 1 returned: %s\n", method1());
+    System.out.printf("Method 2 returned: %s\n", method2());
+    System.out.printf("Method 3 returned: %s\n", method3());
 
     long end = System.currentTimeMillis();
 

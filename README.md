@@ -19,9 +19,10 @@
 
 If you do not have IDE then you can:
 - Open JProfiler
-- `Start Center` > `New Session` > `Launch`
-  - Select `target/profiling-1.0.jar` from `Main class or executable JAR`
-- From `Java File Path` select `Source path` and select `src/main/java`
+- `Start Center` > `New Session` > `New Session`
+  - Session type: `Launch`
+  - Main class or executable JAR: `target/profiling-1.0.jar`
+  - From `Java File Path` select `Source path` and select `src/main/java`
 - In `Call tree filters` add package `lab`
 
 ## Statistics of demo data
@@ -32,6 +33,11 @@ select count(1) from post; -- 1000
 select count(1) from comment; -- 1 000 000
 ```
 
+## Embedded PostgreSQL
+- Host: 127.0.0.1
+- Port: 15432
+- Username: postgres
+- Password: postgres
 
 # Help
 
